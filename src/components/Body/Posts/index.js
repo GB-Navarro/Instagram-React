@@ -1,3 +1,4 @@
+import { useState } from "react";
 export default function Posts() {
   const posts = [
     {
@@ -33,6 +34,11 @@ export default function Posts() {
 }
 
 function Post(props) {
+
+  const [likeOFF, setLikeOFF] = useState("on");
+  const [likeON, setLikeON] = useState("off");
+  const [color, setColor] = useState("black");
+
   return (
     <div className="post">
       <div className="topo">
@@ -52,7 +58,23 @@ function Post(props) {
       <div className="fundo">
         <div className="acoes">
           <div>
-            <ion-icon name="heart-outline"></ion-icon>
+            <span onClick={() => {
+              if((likeON == "off") && (likeOFF == "on")){
+                setLikeON("on");
+                setLikeOFF("off");
+                setColor("red");
+              }else if((likeON =="on") && (likeOFF == "off")){
+                setLikeON("off");
+                setLikeOFF("on");
+              }
+            }}>
+              <span className={likeOFF}>
+                <ion-icon name="heart-outline"></ion-icon>
+              </span>
+              <span className={likeON} id={color}>
+                <ion-icon name="heart-sharp"></ion-icon>
+              </span>
+            </span>
             <ion-icon name="chatbubble-outline"></ion-icon>
             <ion-icon name="paper-plane-outline"></ion-icon>
           </div>
