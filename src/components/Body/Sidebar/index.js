@@ -1,25 +1,25 @@
 export default function Sidebar() {
   const sidebarProfile = {
-    profileimg: "assets/img/catanacomics.svg",
+    profileimg: "../../../assets/img/catanacomics.svg",
     profilename: "catanacomics",
     profilesurname: "Catana"
   };
   const sugestions = [
     {
-      sugestionimg: "assets/img/bad.vibes.memes.svg",
+      sugestionimg: "../../../assets/img/bad.vibes.memes.svg",
       sugestionname: "bad.vibes.memes"
     },
-    { sugestionimg: "assets/img/chibirdart.svg", sugestionname: "chibirdart" },
+    { sugestionimg: "../../../assets/img/chibirdart.svg", sugestionname: "chibirdart" },
     {
-      sugestionimg: "assets/img/razoesparaacreditar.svg",
+      sugestionimg: "../../../assets/img/razoesparaacreditar.svg",
       sugestionname: "razoesparaacreditar"
     },
     {
-      sugestionimg: "assets/img/adorable_animals.svg",
+      sugestionimg: "../../../assets/img/adorable_animals.svg",
       sugestionname: "adorable_animals"
     },
     {
-      sugestionimg: "assets/img/smallcutecats.svg",
+      sugestionimg: "../../../assets/img/smallcutecats.svg",
       sugestionname: "smallcutecats"
     }
   ];

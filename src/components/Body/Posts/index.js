@@ -2,21 +2,21 @@ import { useState } from "react";
 export default function Posts() {
   const posts = [
     {
-      userimg: "assets/img/meowed.svg",
+      userimg: "../../../assets/img/meowed.svg",
       username: "meowed",
-      postimg: "assets/img/gato-telefone.svg",
-      likedbyimg: "assets/img/respondeai.svg",
+      postimg: "../../../assets/img/gato-telefone.svg",
+      likedbyimg: "../../../assets/img/respondeai.svg",
       likedbyname: "respondeai",
       likedbyothers: "outras 101.523 pessoas"
     },
     {
-      userimg: "assets/img/barked.svg",
+      userimg: "../../../assets/img/barked.svg",
       username: "barked",
-      postimg: "assets/img/dog.svg",
-      likedbyimg: "assets/img/adorable_animals.svg",
+      postimg: "../../../assets/img/dog.svg",
+      likedbyimg: "../../../assets/img/adorable_animals.svg",
       likedbyname: "adorable_animals",
       likedbyothers: "outras 99.159 pessoas"
-    }
+    },
   ];
 
   return posts.map((post) => {
