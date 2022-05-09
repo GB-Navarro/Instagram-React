@@ -1,3 +1,5 @@
+import "./style.css";
+
 export default function Sidebar() {
   const sidebarProfile = {
     profileimg: "../../../assets/img/catanacomics.svg",

@@ -1,0 +1,25 @@
+.fundo-mobile {
+    display: none;
+}
+
+.fundo-mobile ion-icon {
+    cursor: pointer;
+}
+
+@media (max-width: 614px) {
+
+    .fundo-mobile {
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        background-color: #fff;
+        border-top: 1px solid #dbdbdb;
+        height: 54px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}

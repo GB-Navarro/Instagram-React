@@ -1,0 +1,35 @@
+.corpo {
+    display: flex;
+    justify-content: space-between;
+    width: 935px;
+    margin: 0 auto;
+    margin-top: 88px;
+}
+
+.esquerda {
+    width: 100%;
+    max-width: 614px;
+}
+
+.on {}
+
+.off {
+    display: none;
+}
+
+#red {
+    color: #E73C35;
+}
+
+@media (max-width: 935px) {
+    .corpo {
+        justify-content: center;
+        width: 100%;
+    }
+}
+
+@media (max-width: 614px) {
+    .corpo {
+        margin-top: 0;
+    }
+}

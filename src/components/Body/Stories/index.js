@@ -1,3 +1,4 @@
+import "./style.css"
 export default function Stories() {
   const stories = [
     { img: "../../../assets/img/9gag.svg", user: "9gag" },

@@ -1,3 +1,4 @@
+import "./style.css";
 import Stories from "./Stories";
 import Posts from "./Posts";
 import Sidebar from "./Sidebar";
